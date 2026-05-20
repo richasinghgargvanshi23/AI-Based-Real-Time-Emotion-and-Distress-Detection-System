@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Model
+model/*.h5
+model/*.pb
+data/fer2013.csv
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Docker
+*.log
